@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Results</title>
+</head>
+<body>
+    <h2>Thanks for submitting this form!  You have submitted this form {{request.session.counter}} time(s) now!</h2>
+    <h3>Submitted Information</h3>
+    <p>Name: {{request.session.form.name}}</p>
+    <p>Dojo Location: {{request.session.form.location}}</p>
+    <p>Favorite Language: {{request.session.form.language}}</p>
+    <p>Comment: {{request.session.form.comment}}</p>
+    <a href="/">Go Back</a>
+</body>
+</html>
