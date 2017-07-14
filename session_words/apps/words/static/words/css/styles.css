@@ -1,0 +1,41 @@
+#add_word > *{
+    padding-left: 10px;
+}
+.indent{
+    margin-left: 10px;
+}
+#wide_text{
+    width: 300px;
+}
+#normal{
+    display: none;
+}
+#add_button{
+    background-color: lightskyblue
+}
+
+#word_list{
+    border-left: 2px solid black;
+    min-height: 350px;
+}
+
+#clear_button{
+    background-color: salmon;
+    margin: 20px 0 0 250px;    
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.big{
+    font-size: 24px;
+}
+#words{
+    margin-top: 10px;
+}
